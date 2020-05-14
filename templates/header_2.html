@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		{% if title=="co_ordinates"%}
+		co-ordinates
+		{% elif title=="Cords_from_tupples"%}
+		Cords from tupples
+		{% elif title=="Address_from_cords"%}
+		Address from cords
+		{% endif %}
+
+
+	</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+	<body>
+		<ul>
+		<li>	<a href="/">Co-ordinates</a> </li>
+		<li>	<a href="/Cords_from_tupples">Cordinates from Tupple of addresses</a></li>
+		<li>	<a href="/Address_from_cords">Address from cords</a></li>
+	    </ul>
+	        <br/>
+		{{cordi}}
+		
